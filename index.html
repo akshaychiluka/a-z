@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Typing Speed Test</h1>
+        </div>
+        <div class="stats">
+            <div class="stat">
+                <div id="timer-value" class="stat-value">60</div>
+                <div class="stat-label">seconds</div>
+            </div>
+            <div class="stat">
+                <div id="error-value" class="stat-value">0</div>
+                <div class="stat-label">errors</div>
+            </div>
+            <div class="stat">
+                <div id="accuracy-value" class="stat-value">0</div>
+                <div class="stat-label">% accuracy</div>
+            </div>
+            <div class="stat">
+                <div id="word_value" class="stat-value">0</div>
+                <div class="stat-label">words/min</div>
+            </div>
+        </div>
+        <div id="quote-text" class="quote"></div>
+        <textarea id="input-area" placeholder="Start typing..."></textarea>
+        <button id="reset-button">Reset</button>
+        <div id="progress-bar">
+            <div id="progress-bar-inner"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
